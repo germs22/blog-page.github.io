@@ -3,6 +3,7 @@ body{
     padding: 0;
     background: url(/assets/justice-bg.jpg) no-repeat;
     background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
 }
 .box{
     width: 800px;
@@ -12,8 +13,11 @@ body{
     margin: auto;
     margin-top: 2%;
     color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Kanit', sans-serif;
 
+}
+.box h1 span {
+    font-family: cursive;
 }
 .box-img {
     border-radius: 50%;
