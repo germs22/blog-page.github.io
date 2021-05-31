@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(/assets/justice-bg.jpg) no-repeat;
+    background-size: cover;
+}
+.box{
+    width: 800px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 25px;
+    text-align: center;
+    margin: auto;
+    margin-top: 2%;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.box-img {
+    border-radius: 50%;
+    width: 200px;
+    height: 172px;
+    width: 25%;
+}
+
+.box h1{
+    font-size:40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+.box h5{
+
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+
+}
+.box p{
+text-align: justify;
+}
+
+table, td, th,tr {
+  border: 1px solid rgb(255, 255, 255)!important;
+}
+table {
+     width: 100%;
+    caption-side: bottom;
+    border-collapse: collapse;
+    text-align: center;
+}
+th {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 4px 21px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+    background-color: #fff;
+    color: black;
+    border: 2px solid #fff;
+}
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+p.footer {
+    text-align: center;
+    padding-top: 34px;
+   
+}
+p.footer .strike {
+    text-decoration: line-through;
+}
